@@ -260,9 +260,9 @@ app.get('/shipping_services', (req, res) => {
   });
 });
 
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
+const PORT = process.env.PORT || 5075;
+app.listen(NODE_PORT, () => {
+  console.log(`Server is running on port ${NODE_PORT}`);
 });
 
 app.listen(8081, () => {
