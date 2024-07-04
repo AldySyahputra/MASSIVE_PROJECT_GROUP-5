@@ -260,7 +260,7 @@ app.get('/shipping_services', (req, res) => {
   });
 });
 
-const PORT = process.env.PORT || 5075;
+const NODE_PORT = process.env.PORT || 5075;
 app.listen(NODE_PORT, () => {
   console.log(`Server is running on port ${NODE_PORT}`);
 });
